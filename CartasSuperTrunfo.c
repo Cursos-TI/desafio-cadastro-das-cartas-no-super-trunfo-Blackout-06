@@ -1,29 +1,34 @@
 #include <stdio.h>
 
 int main() {
-    printf("Super Trunfo de Thales - DESAFIO NOVATO\n");
+    printf("Super Trunfo de Thales - CARTA 01\n");
 
-    int População;
-    float Área;
+    char Letra;
+    int Codigo;
+    char Cidade;
+    int Populacao;
+    float Area;
     float PIB;
-    int Número de Pontos Turísticos;
 
-    printf("Digite a população: \n");
-    scanf("%d", &População);
-
-    printf("Digite a área: \n");
-    scanf("%f", &Área);
-
-    printf("Digite o PIB: \n");
+    printf("Digite a Letra: \n");
+    scanf("%s", &Letra);
+    printf("Digite o código: \n");
+    scanf("%d", &Codigo);
+    printf("Digite a Cidade: \n");
+    scanf("%s", &Cidade);
+    printf("Insira a população: \n");
+    scanf("%d", &Populacao);
+    printf("Insira a área: \n");
+    scanf("%f", &Area);
+    printf("Insira o PIB: \n");
     scanf("%f", &PIB);
-
-    printf("Digite o Número de Pontos Turísticos: \n");
-    scanf("%d", &Número de Pontos Turísticos);
-
-    printf("População: %d\n", População);
-    printf("A Área é: %f\n", Área);
-    printf("O PIB é: %f\n", PIB);
-    printf("O número de pontos turísticos é: %d\n", &Número de Pontos Turísticos);
+    
+    printf("Letra escolhida: %s\n", Letra);
+    printf("Código da carta: %d\n", Codigo);
+    printf("Cidade da carta: %s\n", Cidade);
+    printf("População da Cidade: %d\n", Populacao);
+    printf("Área da Cidade: %f\n", Area);
+    printf("PIB da Cidade: %f\n", PIB);
 
     return 0;
 }
